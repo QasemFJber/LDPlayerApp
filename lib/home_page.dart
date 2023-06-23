@@ -81,17 +81,22 @@ class _MyHomePageState extends State<MyHomePage> {
                       setState(() {});
                     }
                   },
-                  child: new RaisedButton(
-                    child: new Container(
-                        alignment: Alignment.center,
-                        width: 160.0,
-                        height: 100,
-                        child: new Text('Focus Node 0')),
-                    color: focusNodes[0].hasFocus ? Colors.red : Colors.grey,
+                  child: ElevatedButton(
                     onPressed: () {
                       Navigator.of(context).pushNamed('/a');
                     },
-                  ),
+                    style: ElevatedButton.styleFrom(
+                      primary: focusNodes[0].hasFocus ? Colors.red : Colors.grey,
+                      minimumSize: Size(160.0, 100.0),
+                    ),
+                    child: Container(
+                      alignment: Alignment.center,
+                      width: 160.0,
+                      height: 100.0,
+                      child: Text('Focus Node 0'),
+                    ),
+                  )
+                  ,
                 ),
               ),
               new Container(
@@ -128,17 +133,22 @@ class _MyHomePageState extends State<MyHomePage> {
                       setState(() {});
                     }
                   },
-                  child: new RaisedButton(
-                    child: new Container(
-                        alignment: Alignment.center,
-                        width: 160.0,
-                        height: 100,
-                        child: new Text('Focus Node 1')),
-                    color: focusNodes[1].hasFocus ? Colors.red : Colors.grey,
+                  child: ElevatedButton(
                     onPressed: () {
                       Navigator.of(context).pushNamed('/b');
                     },
-                  ),
+                    style: ElevatedButton.styleFrom(
+                      primary: focusNodes[1].hasFocus ? Colors.red : Colors.grey,
+                      minimumSize: Size(160.0, 100.0),
+                    ),
+                    child: Container(
+                      alignment: Alignment.center,
+                      width: 160.0,
+                      height: 100.0,
+                      child: Text('Focus Node 1'),
+                    ),
+                  )
+                  ,
                 ),
               ),
               new Container(
@@ -175,17 +185,22 @@ class _MyHomePageState extends State<MyHomePage> {
                       setState(() {});
                     }
                   },
-                  child: new RaisedButton(
-                    child: new Container(
-                        alignment: Alignment.center,
-                        width: 160.0,
-                        height: 100,
-                        child: new Text('Focus Node 2')),
-                    color: focusNodes[2].hasFocus ? Colors.red : Colors.grey,
+                  child: ElevatedButton(
                     onPressed: () {
                       Navigator.of(context).pushNamed('/c');
                     },
-                  ),
+                    style: ElevatedButton.styleFrom(
+                      primary: focusNodes[2].hasFocus ? Colors.red : Colors.grey,
+                      minimumSize: Size(160.0, 100.0),
+                    ),
+                    child: Container(
+                      alignment: Alignment.center,
+                      width: 160.0,
+                      height: 100.0,
+                      child: Text('Focus Node 2'),
+                    ),
+                  )
+                  ,
                 ),
               ),
             ]),
@@ -224,17 +239,22 @@ class _MyHomePageState extends State<MyHomePage> {
                       setState(() {});
                     }
                   },
-                  child: new RaisedButton(
-                    child: new Container(
-                        alignment: Alignment.center,
-                        width: 160.0,
-                        height: 100,
-                        child: new Text('Focus Node 3')),
-                    color: focusNodes[3].hasFocus ? Colors.red : Colors.grey,
+                  child: ElevatedButton(
                     onPressed: () {
                       Navigator.of(context).pushNamed('/a');
                     },
-                  ),
+                    style: ElevatedButton.styleFrom(
+                      primary: focusNodes[3].hasFocus ? Colors.red : Colors.grey,
+                      minimumSize: Size(160.0, 100.0),
+                    ),
+                    child: Container(
+                      alignment: Alignment.center,
+                      width: 160.0,
+                      height: 100.0,
+                      child: Text('Focus Node 3'),
+                    ),
+                  )
+                  ,
                 ),
               ),
               new Container(
@@ -271,17 +291,22 @@ class _MyHomePageState extends State<MyHomePage> {
                       setState(() {});
                     }
                   },
-                  child: new RaisedButton(
-                    child: new Container(
-                        alignment: Alignment.center,
-                        width: 160.0,
-                        height: 100,
-                        child: new Text('Focus Node 4')),
-                    color: focusNodes[4].hasFocus ? Colors.red : Colors.grey,
+                  child: ElevatedButton(
                     onPressed: () {
                       Navigator.of(context).pushNamed('/b');
                     },
-                  ),
+                    style: ElevatedButton.styleFrom(
+                      primary: focusNodes[4].hasFocus ? Colors.red : Colors.grey,
+                      minimumSize: Size(160.0, 100.0),
+                    ),
+                    child: Container(
+                      alignment: Alignment.center,
+                      width: 160.0,
+                      height: 100.0,
+                      child: Text('Focus Node 4'),
+                    ),
+                  )
+                  ,
                 ),
               ),
               new Container(
@@ -318,17 +343,22 @@ class _MyHomePageState extends State<MyHomePage> {
                       setState(() {});
                     }
                   },
-                  child: new RaisedButton(
-                    child: new Container(
-                        alignment: Alignment.center,
-                        width: 160.0,
-                        height: 100,
-                        child: new Text('Focus Node 5')),
-                    color: focusNodes[5].hasFocus ? Colors.red : Colors.grey,
+                  child: ElevatedButton(
                     onPressed: () {
                       Navigator.of(context).pushNamed('/c');
                     },
-                  ),
+                    style: ElevatedButton.styleFrom(
+                      primary: focusNodes[5].hasFocus ? Colors.red : Colors.grey,
+                      minimumSize: Size(160.0, 100.0),
+                    ),
+                    child: Container(
+                      alignment: Alignment.center,
+                      width: 160.0,
+                      height: 100.0,
+                      child: Text('Focus Node 5'),
+                    ),
+                  )
+                  ,
                 ),
               ),
             ]),
@@ -367,17 +397,22 @@ class _MyHomePageState extends State<MyHomePage> {
                       setState(() {});
                     }
                   },
-                  child: new RaisedButton(
-                    child: new Container(
-                        alignment: Alignment.center,
-                        width: 160.0,
-                        height: 100,
-                        child: new Text('Focus Node 6')),
-                    color: focusNodes[6].hasFocus ? Colors.red : Colors.grey,
+                  child: ElevatedButton(
                     onPressed: () {
                       Navigator.of(context).pushNamed('/a');
                     },
-                  ),
+                    style: ElevatedButton.styleFrom(
+                      primary: focusNodes[6].hasFocus ? Colors.red : Colors.grey,
+                      minimumSize: Size(160.0, 100.0),
+                    ),
+                    child: Container(
+                      alignment: Alignment.center,
+                      width: 160.0,
+                      height: 100.0,
+                      child: Text('Focus Node 6'),
+                    ),
+                  )
+                  ,
                 ),
               ),
               new Container(
@@ -414,17 +449,22 @@ class _MyHomePageState extends State<MyHomePage> {
                       setState(() {});
                     }
                   },
-                  child: new RaisedButton(
-                    child: new Container(
-                        alignment: Alignment.center,
-                        width: 160.0,
-                        height: 100,
-                        child: new Text('Focus Node 7')),
-                    color: focusNodes[7].hasFocus ? Colors.red : Colors.grey,
+                  child: ElevatedButton(
                     onPressed: () {
                       Navigator.of(context).pushNamed('/b');
                     },
-                  ),
+                    style: ElevatedButton.styleFrom(
+                      primary: focusNodes[7].hasFocus ? Colors.red : Colors.grey,
+                      minimumSize: Size(160.0, 100.0),
+                    ),
+                    child: Container(
+                      alignment: Alignment.center,
+                      width: 160.0,
+                      height: 100.0,
+                      child: Text('Focus Node 7'),
+                    ),
+                  )
+                  ,
                 ),
               ),
               new Container(
@@ -461,17 +501,22 @@ class _MyHomePageState extends State<MyHomePage> {
                         setState(() {});
                       }
                     },
-                    child: new RaisedButton(
-                      child: new Container(
-                          alignment: Alignment.center,
-                          width: 160.0,
-                          height: 100,
-                          child: new Text('Focus Node 8')),
-                      color: focusNodes[8].hasFocus ? Colors.red : Colors.grey,
+                    child: ElevatedButton(
                       onPressed: () {
                         Navigator.of(context).pushNamed('/b');
                       },
-                    ),
+                      style: ElevatedButton.styleFrom(
+                        primary: focusNodes[8].hasFocus ? Colors.red : Colors.grey,
+                        minimumSize: Size(160.0, 100.0),
+                      ),
+                      child: Container(
+                        alignment: Alignment.center,
+                        width: 160.0,
+                        height: 100.0,
+                        child: Text('Focus Node 8'),
+                      ),
+                    )
+                    ,
                   )
                 /*
                     onPressed: () {

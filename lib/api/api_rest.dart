@@ -56,6 +56,11 @@ class apiRest{
   static loginUser(var data) async{
     return configPost("/user/login/",data) ;
   }
+
+  // static bool isLoggedIn() {
+  //   var loggedIn;
+  //   return apiConfig.loggedIn;
+  // }
   static addCommentPoster(var data) async{
 
     return configPost("/comment/poster/add/",data) ;

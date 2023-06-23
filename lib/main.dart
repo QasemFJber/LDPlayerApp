@@ -24,6 +24,8 @@ import 'package:flutter_app_tv/ui/setting/settings.dart';
 import 'package:flutter_app_tv/ui/pages/splash.dart';
 import 'package:wakelock/wakelock.dart';
 import 'ui/player/video_player.dart';
+// import 'package:flutter_localizations/flutter_localizations.dart';
+// import 'package:flutter_gen/gen_l10n/app_localization.dart';
 
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
@@ -63,7 +65,17 @@ class _MyAppState extends State<MyApp> {
     return
            MaterialApp(
              debugShowCheckedModeBanner: false,
-
+             localizationsDelegates: [
+               // GlobalWidgetsLocalizations.delegate,
+               // GlobalCupertinoLocalizations.delegate,
+               // GlobalMaterialLocalizations.delegate,
+               // AppLocalizations.delegate,
+             ],
+             locale: Locale('en'),
+             supportedLocales: [
+               Locale('en'),
+               Locale('ar'),
+             ],
              home: Splash(),
             routes: {
               "/splash": (context) => Splash(),

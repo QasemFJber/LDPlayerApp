@@ -1,0 +1,24 @@
+{
+  "@@locale": "en",
+  "exam": "UCAS - Final Exam",
+  "ucas": "UCAS 2022/2023",
+  "login": "Login",
+  "home": "Home",
+  "welcomeback": "Welcome Back ...",
+  "enteremai": "Enter Email & Password",
+  "email": "Email",
+  "password": "Password",
+  "second_question": "Second Question",
+  "info": "Info",
+  "details": "Details",
+  "settings": "Settings",
+  "save": "Save",
+  "fullname": "Full Name",
+  "online": "Online",
+  "createnote": "Create Note",
+  "entertitleinfo": "Enter Title & Info",
+  "title": "Title"
+
+
+
+}
