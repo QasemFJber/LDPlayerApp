@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Flutter Facebook Auth Example</string>
+    <string name="facebook_app_id">416667776391717</string>
+    <string name="fb_login_protocol_scheme">fb416667776391717</string>
+</resources>

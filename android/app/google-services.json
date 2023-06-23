@@ -1,0 +1,186 @@
+{
+  "project_info": {
+    "project_number": "376850384625",
+    "project_id": "agadir-230400",
+    "storage_bucket": "agadir-230400.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376850384625:android:d4db529970062c8c2ccb50",
+        "android_client_info": {
+          "package_name": "com.virlabs.demo_flx_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376850384625-l88ib7sucmjemgd9n70qpmrdtp6k05ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzq4yY4nQEGerWNozmsqJv5V4K3t1Ho44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376850384625-l88ib7sucmjemgd9n70qpmrdtp6k05ak.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "376850384625-mac6afjjdhm2a704796te3ggnr620vl8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.virmana.myteam"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376850384625:android:e32978323a8d368e2ccb50",
+        "android_client_info": {
+          "package_name": "com.virlabs.demo_news_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376850384625-1e22hvv1a6rmlsc8e7hr6hdiui89i21g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virlabs.demo_news_application",
+            "certificate_hash": "db83f454114a9dd2b5c35950c9a7d7c090228cca"
+          }
+        },
+        {
+          "client_id": "376850384625-roptsr6kbrkhnt49eamn2an01s67edt4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virlabs.demo_news_application",
+            "certificate_hash": "7cb58cd17e3991ae9e177620efd6de15847c184a"
+          }
+        },
+        {
+          "client_id": "376850384625-l88ib7sucmjemgd9n70qpmrdtp6k05ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzq4yY4nQEGerWNozmsqJv5V4K3t1Ho44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376850384625-l88ib7sucmjemgd9n70qpmrdtp6k05ak.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "376850384625-mac6afjjdhm2a704796te3ggnr620vl8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.virmana.myteam"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376850384625:android:77c217b90b908f462ccb50",
+        "android_client_info": {
+          "package_name": "com.virlabs.tvflix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376850384625-l88ib7sucmjemgd9n70qpmrdtp6k05ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzq4yY4nQEGerWNozmsqJv5V4K3t1Ho44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376850384625-l88ib7sucmjemgd9n70qpmrdtp6k05ak.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "376850384625-mac6afjjdhm2a704796te3ggnr620vl8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.virmana.myteam"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376850384625:android:aa259e651c527d812ccb50",
+        "android_client_info": {
+          "package_name": "com.virmana.tvapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376850384625-6manmc93gqf04k8s37fasmaa2hc2n7m1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.tvapp",
+            "certificate_hash": "7cb58cd17e3991ae9e177620efd6de15847c184a"
+          }
+        },
+        {
+          "client_id": "376850384625-r99nhkl3h390466r7l545gbom3ovv9ug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virmana.tvapp",
+            "certificate_hash": "db83f454114a9dd2b5c35950c9a7d7c090228cca"
+          }
+        },
+        {
+          "client_id": "376850384625-l88ib7sucmjemgd9n70qpmrdtp6k05ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzq4yY4nQEGerWNozmsqJv5V4K3t1Ho44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376850384625-l88ib7sucmjemgd9n70qpmrdtp6k05ak.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "376850384625-mac6afjjdhm2a704796te3ggnr620vl8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.virmana.myteam"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
