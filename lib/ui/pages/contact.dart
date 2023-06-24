@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_app_tv/api/api_rest.dart';
 import 'package:flutter_app_tv/key_code.dart';
+import 'package:flutter_app_tv/widget/appbar.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -107,6 +108,7 @@ class _ContactState extends State<Contact> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: MyAppBar(title: 'Contact', onBackButtonPressed: (){},showBackButton: true,),
       backgroundColor: Colors.black,
       body:  RawKeyboardListener(
         focusNode: main_focus_node,
