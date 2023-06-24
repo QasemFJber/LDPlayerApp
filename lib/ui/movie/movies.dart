@@ -22,6 +22,7 @@ import 'package:flutter_app_tv/ui/serie/series.dart';
 import 'package:flutter_app_tv/ui/setting/settings.dart';
 
 import 'package:flutter_app_tv/ui/movie/movie_short_detail_mini.dart';
+import 'package:flutter_app_tv/widget/appbar.dart';
 
 import 'package:flutter_app_tv/widget/navigation_widget.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
@@ -205,6 +206,7 @@ class _MoviesState extends ResumableState<Movies> {
       return true;
     },
       child: Scaffold(
+        appBar: MyAppBar(title: 'Movies', onBackButtonPressed: (){},showBackButton: true,),
         backgroundColor: Colors.black,
         body:RawKeyboardListener(
           focusNode: home_focus_node,
