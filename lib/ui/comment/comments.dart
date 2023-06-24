@@ -13,6 +13,7 @@ import 'package:flutter_app_tv/ui/comment/comment_empty_widget.dart';
 import 'package:flutter_app_tv/ui/comment/comment_error_widget.dart';
 import 'package:flutter_app_tv/ui/comment/comment_loading_widget.dart';
 import 'package:flutter_app_tv/ui/comment/comment_widget.dart';
+import 'package:flutter_app_tv/widget/appbar.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -133,6 +134,7 @@ class _CommentsState extends ResumableState<Comments> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: MyAppBar(title: 'Comments', onBackButtonPressed: (){},showBackButton: true,),
       backgroundColor: Colors.black,
       body:  RawKeyboardListener(
         focusNode: main_focus_node,
