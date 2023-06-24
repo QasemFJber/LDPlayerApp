@@ -12,6 +12,7 @@ import 'package:flutter_app_tv/ui/movie/movie.dart';
 import 'package:flutter_app_tv/ui/movie/movies_widget.dart';
 import 'package:flutter_app_tv/ui/movie/related_loading_widget.dart';
 import 'package:flutter_app_tv/ui/serie/serie.dart';
+import 'package:flutter_app_tv/widget/appbar.dart';
 import 'package:flutter_html/shims/dart_ui_real.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
@@ -78,6 +79,7 @@ class _ActorDetailState extends State<ActorDetail> {
         return true;
       },
       child: Scaffold(
+        appBar: MyAppBar(title: 'Actor Details', onBackButtonPressed: (){},showBackButton: true),
         backgroundColor: Colors.black,
         body: RawKeyboardListener(
           focusNode: actor_focus_node,
