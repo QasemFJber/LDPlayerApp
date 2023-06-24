@@ -12,6 +12,7 @@ import 'package:flutter_app_tv/ui/review/revie_error_widget.dart';
 import 'package:flutter_app_tv/ui/review/review_empty_widget.dart';
 import 'package:flutter_app_tv/ui/review/review_loading_widget.dart';
 import 'package:flutter_app_tv/ui/review/review_widget.dart';
+import 'package:flutter_app_tv/widget/appbar.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'dart:convert' as convert;
@@ -99,6 +100,7 @@ class _ReviewsState extends State<Reviews> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: MyAppBar(title: 'Reviews', onBackButtonPressed: (){},showBackButton: true,),
       backgroundColor: Colors.black,
       body:  RawKeyboardListener(
         focusNode: main_focus_node,
