@@ -14,6 +14,7 @@ import 'package:flutter_app_tv/ui/setting/setting_bg_widget.dart';
 import 'package:flutter_app_tv/ui/setting/setting_color_widget.dart';
 import 'package:flutter_app_tv/ui/setting/setting_size_widget.dart';
 import 'package:flutter_app_tv/ui/setting/setting_widget.dart';
+import 'package:flutter_app_tv/widget/appbar.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_html/shims/dart_ui_real.dart';
 
@@ -148,7 +149,7 @@ class _SettingsState extends State<Settings> {
       },
       child: Scaffold(
           backgroundColor:  Theme.of(context).scaffoldBackgroundColor,
-
+          appBar: MyAppBar(title: 'Settings', onBackButtonPressed: (){},showBackButton: true,),
           body:Stack(
             children: [
               FadeInImage(placeholder: MemoryImage(kTransparentImage),image:AssetImage("assets/images/background.jpeg"),fit: BoxFit.cover),
