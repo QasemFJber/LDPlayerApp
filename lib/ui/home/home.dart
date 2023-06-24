@@ -28,6 +28,7 @@ import 'package:flutter_app_tv/ui/serie/series.dart';
 import 'package:flutter_app_tv/ui/setting/settings.dart';
 import 'package:flutter_app_tv/ui/channel/channels_widget.dart';
 import 'package:flutter_app_tv/ui/movie/movies_widget.dart';
+import 'package:flutter_app_tv/widget/appbar.dart';
 import 'package:flutter_app_tv/widget/navigation_widget.dart';
 import 'package:flutter_app_tv/widget/slide_widget.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -171,6 +172,7 @@ class _HomeState extends ResumableState<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: MyAppBar(title: 'Home Page', onBackButtonPressed: (){}),
       backgroundColor: Colors.grey,
       body:RawKeyboardListener(
         focusNode: home_focus_node,
