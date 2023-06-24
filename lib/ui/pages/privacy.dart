@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_tv/api/api_config.dart';
 import 'package:flutter_app_tv/key_code.dart';
+import 'package:flutter_app_tv/widget/appbar.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_html/shims/dart_ui_real.dart';
 
@@ -90,7 +91,7 @@ class _PrivacyState extends State<Privacy> {
       },
       child: Scaffold(
           backgroundColor:  Theme.of(context).scaffoldBackgroundColor,
-
+          appBar: MyAppBar(title: 'Privacy', onBackButtonPressed: (){},showBackButton: true,),
           body:Stack(
             children: [
               FadeInImage(placeholder: MemoryImage(kTransparentImage),image:AssetImage("assets/images/background.jpeg"),fit: BoxFit.cover),
