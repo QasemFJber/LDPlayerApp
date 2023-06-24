@@ -30,6 +30,7 @@ import 'package:flutter_app_tv/ui/serie/series.dart';
 import 'package:flutter_app_tv/ui/setting/settings.dart';
 
 import 'package:flutter_app_tv/ui/movie/movie_short_detail_mini.dart';
+import 'package:flutter_app_tv/widget/appbar.dart';
 
 import 'package:flutter_app_tv/widget/navigation_widget.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -245,6 +246,7 @@ class _ChannelsState extends ResumableState<Channels> {
         return true;
       },
       child: Scaffold(
+        appBar: MyAppBar(title: 'Channels', onBackButtonPressed: (){},showBackButton: true,),
         backgroundColor: Colors.black,
         body:RawKeyboardListener(
           focusNode: home_focus_node,
