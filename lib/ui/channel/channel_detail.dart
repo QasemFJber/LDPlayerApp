@@ -26,6 +26,7 @@ import 'package:flutter_app_tv/ui/player/video_player.dart';
 import 'package:flutter_app_tv/ui/channel/channels_widget.dart';
 import 'package:flutter_app_tv/ui/movie/movies_widget.dart';
 import 'package:flutter_app_tv/ui/review/reviews.dart';
+import 'package:flutter_app_tv/widget/appbar.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
@@ -211,6 +212,7 @@ class _ChannelDetailState extends State<ChannelDetail> {
         return true;
       },
       child: Scaffold(
+        appBar: MyAppBar(title: 'Channel Details', onBackButtonPressed: (){},showBackButton: true),
         body: RawKeyboardListener(
           focusNode: movie_focus_node,
           onKey: (RawKeyEvent event) {
