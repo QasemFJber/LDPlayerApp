@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_app_tv/api/api_rest.dart';
 import 'package:flutter_app_tv/key_code.dart';
+import 'package:flutter_app_tv/widget/appbar.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'dart:convert' as convert;
@@ -101,6 +102,7 @@ class _CommentAddState extends State<CommentAdd> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: MyAppBar(title: 'Add Comment', onBackButtonPressed: (){}),
       backgroundColor: Colors.black,
       body:  RawKeyboardListener(
         focusNode: main_focus_node,
