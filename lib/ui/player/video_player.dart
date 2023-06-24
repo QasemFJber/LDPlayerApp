@@ -28,6 +28,7 @@ import 'package:flutter_app_tv/ui/player/video_controller_widget.dart' as ui;
 import 'package:flutter_app_tv/ui/home/home.dart';
 import 'package:flutter_app_tv/key_code.dart';
 import 'package:flutter_app_tv/ui/player/subtitle_widget.dart';
+import 'package:flutter_app_tv/widget/appbar.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -272,6 +273,7 @@ class _VideoPlayerState extends State<VideoPlayer>   with SingleTickerProviderSt
         return true;
       },
       child: Scaffold(
+        appBar: MyAppBar(title: 'Player', onBackButtonPressed: (){},showBackButton: true,),
         backgroundColor: Colors.black,
         body: RawKeyboardListener(
           focusNode: video_player_focus_node,
