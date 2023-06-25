@@ -1,7 +1,5 @@
 {
 "@@locale": "en",
-  "exam": "UCAS - Final Exam",
-  "ucas": "UCAS 2022/2023",
   "login": "Login",
   "home": "Home",
   "welcomeback": "Welcome Back ...",
@@ -15,8 +13,6 @@
   "save": "Save",
   "fullname": "Full Name",
   "online": "Online",
-  "createnote": "Create Note",
-  "entertitleinfo": "Enter Title & Info",
   "title": "Title",
   "stream": "Stream",
   "download": "Download",

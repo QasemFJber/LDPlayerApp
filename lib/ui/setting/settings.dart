@@ -231,6 +231,7 @@ class _SettingsState extends State<Settings> {
                                   _goToContactUs();
                                 }),
                                 SettingWidget(icon: Icons.info,title: "Versions",isFocused: (pos_y == 5),subtitle: "2.3", action: (){}),
+                                SettingWidget(icon: Icons.language,title: "Language",isFocused: (pos_y == 5),subtitle: "2.3", action: (){}),
                               ],
                             ),
                           ),

@@ -475,7 +475,10 @@ class _LoginState extends State<Login> {
                           ),
                         ],
                       ),
-                      IconButton(onPressed: (){}, icon: Icon(Icons.language))
+                      Padding(
+                        padding: const EdgeInsets.all(13),
+                        child: IconButton(onPressed: (){}, icon: Icon(Icons.language)),
+                      )
                     ],
                   ),
                 ),
